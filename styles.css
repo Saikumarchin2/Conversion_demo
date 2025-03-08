@@ -64,14 +64,10 @@ button:hover {
 }
 
 /* Form Styling */
-.form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Full viewport height */
-}
 form {
-    width: 50%; /* Adjust as needed */
+    margin: 2px 50px 75px 100px;
+    padding: 12px 80px;
+    align-content: center;
 }
 
 /* Label Styling */
@@ -122,5 +118,4 @@ input[type="submit"]:hover {
 }
 #showHistory:hover {
     background-color: lightblue; 
-}
-
+}     
