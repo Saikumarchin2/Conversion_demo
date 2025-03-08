@@ -1,0 +1,114 @@
+body {
+    padding: 45px;
+}
+div{
+  margin-top: 20px;
+
+  padding-top: 10px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.title {
+    color: #5C6AC4;
+    margin-top: 20px;
+    font-size: 323%;
+    text-align: center;
+}
+
+#demo {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: green;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}
+button {
+    display: block;
+    width: 160px; 
+    padding: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px auto; 
+    text-align: center;
+}
+
+button:hover {
+    background-color: lightblue; 
+}
+
+form {
+    margin: 2px 50px 75px 100px;
+    padding: 12px 80px;
+    align-content: center;
+}
+
+label {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#c_code, #amt {
+    border: 2px solid blue;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 6px;
+    margin: 5px 5px 16px 15px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 120px; 
+    height: 45px; 
+    font-size: 18px;
+    padding: 10px; 
+    background-color: blue;
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+input[type="submit"]:hover {
+    background-color: lightblue;
+}
+#showHistory{
+  position: absolute;
+  top:20px;
+  left:20px;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+  margin-bottom: 20px;
+  background-color: gray;
+  
+}
+#showHistory:hover {
+    background-color: lightblue; 
+}
+
