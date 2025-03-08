@@ -42,6 +42,8 @@ th, td {
 th {
     background-color: lightgray;
 }
+
+/* General Button Styling (applies to all buttons) */
 button {
     display: block;
     width: 160px; 
@@ -56,22 +58,30 @@ button {
     text-align: center;
 }
 
+/* Hover effect for buttons */
 button:hover {
     background-color: lightblue; 
 }
 
+/* Form Styling */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+}
 form {
-    margin: 2px 50px 75px 100px;
-    padding: 12px 80px;
-    align-content: center;
+    width: 50%; /* Adjust as needed */
 }
 
+/* Label Styling */
 label {
     font-size: 20px;
     text-align: center;
     margin-left: 10px;
 }
 
+/* Input Fields Styling */
 #c_code, #amt {
     border: 2px solid blue;
     padding: 5px;
@@ -80,6 +90,7 @@ label {
     margin: 5px 5px 16px 15px;
 }
 
+/* Submit Button Styling */
 input[type="submit"] {
     display: block;
     width: 120px; 
@@ -94,6 +105,7 @@ input[type="submit"] {
     margin: 10px auto;
 }
 
+/* Hover effect for submit button */
 input[type="submit"]:hover {
     background-color: lightblue;
 }
