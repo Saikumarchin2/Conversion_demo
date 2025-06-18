@@ -15,12 +15,14 @@ document.addEventListener("DOMContentLoaded", function() {
             let dateTime = new Date().toLocaleString();
 
             if (num1 === 'usd') {
-                rate = 86.2;
+                rate = 86.262;
             } else if (num1 === 'afg') {
-                rate = 25;
-            } else if (num1 === 'ind') {
+                rate = 1.228;
+            } else if (num1 === 'inr') {
                 rate = 1;
-            } else {
+            } else if(num1 ==='euro'){
+                rate = 99.21;
+            }else {
                 document.getElementById('demo').innerText = "Invalid Code!!";
                 saveToHistory(num1, num2, "N/A", dateTime, "unsuccessful");
                 return;
