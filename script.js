@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             if (num1 === 'usd') {
                 rate = 86.262;
-            } else if (num1 === 'afg') {
+            } else if (num1 === 'afh') {
                 rate = 1.228;
             } else if (num1 === 'inr') {
                 rate = 1;
