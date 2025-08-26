@@ -1,50 +1,4 @@
 body {
-    padding: 45px;
-}
-div{
-  margin-top: 20px;
-
-  padding-top: 10px;
-}
-
-p {
-  text-align: center;
-  font-size: 20px;
-}
-
-.title {
-  text-align: center;
-  color: #5C6AC4;
-  font-family: 'Arial', sans-serif;
-  text-transform: uppercase;
-}
-
-#demo {
-    margin-top: 10px;
-    font-weight: bold;
-    font-size: 18px;
-    color: green;
-}
-
-/* Table Styling */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-th, td {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-}
-
-th {
-    background-color: lightgray;
-}
-
-/* General Button Styling (applies to all buttons) */
-body {
   margin: 0;
   height: 100vh; /* Full screen height */
   display: flex;
@@ -97,3 +51,30 @@ button:hover {
 input[type="submit"]:hover {
   background-color: #68f186;
 } 
+
+p {
+  text-align: center;
+  font-size: 20px;
+   margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: green;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}
+
