@@ -13,10 +13,10 @@ p {
 }
 
 .title {
-    color: #5C6AC4;
-    margin-top: 20px;
-    font-size: 323%;
-    text-align: center;
+  text-align: center;
+  color: #5C6AC4;
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase;
 }
 
 #demo {
@@ -44,78 +44,56 @@ th {
 }
 
 /* General Button Styling (applies to all buttons) */
-button {
-    display: block;
-    width: 160px; 
-    padding: 8px;
-    font-size: 15px;
-    cursor: pointer;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin: 20px auto; 
-    text-align: center;
+body {
+  margin: 0;
+  height: 100vh; /* Full screen height */
+  display: flex;
+  flex-direction: column;
 }
 
-/* Hover effect for buttons */
-button:hover {
-    background-color: lightblue; 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Form Styling */
 form {
-    margin: 2px 50px 75px 100px;
-    padding: 12px 80px;
-    align-content: center;
+  display: flex;
+  flex-direction: column; /* stack inputs vertically */
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
-
-/* Label Styling */
-label {
-    font-size: 20px;
-    text-align: center;
-    margin-left: 10px;
+input[type="text"], input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
 }
-
-/* Input Fields Styling */
-#c_code, #amt {
-    border: 2px solid blue;
-    padding: 5px;
-    font-size: 14px;
-    border-radius: 6px;
-    margin: 5px 5px 16px 15px;
-}
-
-/* Submit Button Styling */
-input[type="submit"] {
-    display: block;
-    width: 120px; 
-    height: 45px; 
-    font-size: 18px;
-    padding: 10px; 
-    background-color: blue;
-    color: white;
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer;
-    margin: 10px auto;
-}
-
-/* Hover effect for submit button */
-input[type="submit"]:hover {
-    background-color: lightblue;
-}
-#showHistory{
-  position: absolute;
-  top:20px;
-  left:20px;
-  border: none; 
-  border-radius: 5px; 
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #110404;
+  color: white;
   cursor: pointer;
-  margin-bottom: 20px;
-  background-color: gray;
-  
+  margin: 40px;
+  align-self: flex-end;
 }
-#showHistory:hover {
-    background-color: lightblue; 
-}     
+input[type="submit"] {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #03a719;
+  color: white;
+  cursor: pointer;
+  margin: 20px;
+  align-self: center;
+}
+button:hover {
+  background-color: #68f186;
+}
+input[type="submit"]:hover {
+  background-color: #68f186;
+} 
